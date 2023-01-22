@@ -1,0 +1,10 @@
+[22-Jan-2023 14:01:14 UTC] PHP Warning:  require(C:\Users\shant\OneDrive\Workspace\Wordpress-Local\myhomeproperties\app\public/wp-includes/option.php): Failed to open stream: No such file or directory in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\myhomeproperties\app\public\wp-includes\functions.php on line 8
+[22-Jan-2023 14:01:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\shant\OneDrive\Workspace\Wordpress-Local\myhomeproperties\app\public/wp-includes/option.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\myhomeproperties\app\public\wp-includes\functions.php:8
+Stack trace:
+#0 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\myhomeproperties\app\public\wp-load.php(67): require_once()
+#1 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\myhomeproperties\app\public\wp-blog-header.php(13): require_once('C:\\Users\\shant\\...')
+#2 C:\Users\shant\OneDrive\Workspace\Wordpress-Local\myhomeproperties\app\public\index.php(17): require('C:\\Users\\shant\\...')
+#3 {main}
+  thrown in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\myhomeproperties\app\public\wp-includes\functions.php on line 8
+[22-Jan-2023 14:12:19 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\myhomeproperties\app\public\wp-admin\includes\class-theme-upgrader.php on line 160
+[22-Jan-2023 14:12:39 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in C:\Users\shant\OneDrive\Workspace\Wordpress-Local\myhomeproperties\app\public\wp-admin\includes\class-theme-upgrader.php on line 160
